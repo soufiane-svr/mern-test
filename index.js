@@ -11,7 +11,7 @@ app.use(cors())
 app.use('/api/v1',require('./router/router'))
 
 const server = app.listen(8000,()=>{
-    console.log('listen port 8000');
+    console.log('listen porter 8000');
 })
 
 const io = socket(server,{
